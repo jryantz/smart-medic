@@ -1,0 +1,38 @@
+.loading {
+    padding-top: 30px;
+}
+
+.loading li {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 400%;
+}
+
+ul li:nth-child(1) {
+    color: #ccc;
+    animation: animateLoad 4s infinite;
+}
+
+ul li:nth-child(2) {
+    color: #ccc;
+    animation: animateLoad 4s infinite;
+    animation-delay: 1s;
+}
+
+ul li:nth-child(3) {
+    color: #ccc;
+    animation: animateLoad 4s infinite;
+    animation-delay: 2s;
+}
+
+ul li:nth-child(4) {
+    color: #ccc;
+    animation: animateLoad 4s infinite;
+    animation-delay: 3s;
+}
+
+@keyframes animateLoad {
+    0% { font-size: 400%; }
+    20% { font-size: 200%; color: #c80ed4; }
+    50% { font-size: 400%; color: #ccc; }
+}

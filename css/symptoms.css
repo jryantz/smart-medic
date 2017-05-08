@@ -1,0 +1,44 @@
+.symptoms {
+    list-style: none;
+    margin: 50px 0;
+}
+
+.symptoms li {
+    border: 1px solid #6d7177;
+    border-radius: 4px;
+    margin: 10px 30px;
+    padding: 20px 15px;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+.symptoms li.selected, .symptoms li:hover {
+    border: 1px solid #fff;
+    background-color: #5fa5ff;
+    color: #fff;
+    transform: scale(0.985);
+}
+
+.symptoms li.selected {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.next {
+    float: right;
+    margin-right: 30px;
+    border: 1px solid #fff;
+    background-color: #5fa5ff;
+    border-radius: 4px;
+    transition: all 0.1s;
+}
+
+.next a {
+    display: block;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.next:hover {
+    transform: scale(1.1);
+}
